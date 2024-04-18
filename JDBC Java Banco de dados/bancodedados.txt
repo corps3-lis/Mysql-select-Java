@@ -1,0 +1,11 @@
+mysql -v
+ mysql -uroot -p
+  create database aulaJdbc;  
+   show databases; 
+    use aulaJdbc;
+     show tables;
+      create table pessoas(id int primary key auto_increment, nome varchar(50));
+       desc pessoas;
+        select * from pessoas; 	
+         insert into pessoas (nome) values ('Italo'),('Maya'),('Lis');
+          select * from pessoas;
